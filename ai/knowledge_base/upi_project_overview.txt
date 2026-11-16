@@ -1,0 +1,52 @@
+# UPI Pulse — Project Overview
+
+## Project Description
+UPI Pulse is an analytics platform designed to analyse India's Unified Payments Interface (UPI) transaction statistics.
+
+## Dataset Information
+- Data period: April 2024 to March 2026
+- Total observations: 24 monthly records
+- Data level: Aggregate national monthly statistics
+
+## Dataset Columns
+- Month
+- No. of Banks live on UPI
+- Volume (In Mn.)
+- Value (In Cr.)
+- Volume Growth (%)
+- Value Growth (%)
+- Average Transaction Value (₹)
+
+## Technology Stack
+- Python
+- Pandas and NumPy
+- Matplotlib and Seaborn
+- MySQL
+- Excel
+- Power BI
+- Scikit-learn
+- ChromaDB
+- Sentence Transformers
+- Gemini API
+- Streamlit
+
+## Analytics Completed
+- Data cleaning and preprocessing
+- Exploratory data analysis
+- Monthly transaction trends
+- Financial-year comparisons
+- SQL business analysis
+- Excel and Power BI dashboards
+
+## Machine Learning
+- Linear Regression for transaction volume forecasting
+- Linear Regression for transaction value forecasting
+- Model evaluation using MAE, RMSE and MAPE
+- IQR-based anomaly detection
+- Statistical monthly growth anomaly detection
+
+## Important Limitations
+The dataset contains only 24 monthly observations. Forecasting and anomaly detection are exploratory and should not be interpreted as production-grade predictions or fraud detection.
+
+## Project Objective
+Build an intelligent analytics platform that allows users to explore UPI statistics, understand historical trends, examine forecasts and ask natural-language questions about the available data.
